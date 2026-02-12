@@ -17,10 +17,12 @@ O projeto é dividido em módulos especializados:
 
 ```text
 SocketLens/
-├── main.py                # Interface de linha de comando (Menu)
+├── socketlens.py         # Interface de linha de comando (Menu)
+├── core/
+│   ├── banner.py         # Banner
+│   └── logger.py         # 
 ├── modules/
-│   ├── Lens_Port.py         # Lógica de escaneamento de portas
-│   └── Lens_Web.py   # Lógica de validação de protocolos web
-├── ips.txt                # Lista de alvos para processamento em lote
-└── relatorio_final.txt    # Saída dos resultados
+│   ├── Lens_Port.py      # Lógica de escaneamento de portas
+│   └── Lens_Web.py       # Lógica de validação de protocolos web
+
 ```
