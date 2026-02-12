@@ -1,7 +1,7 @@
 import core.logger
+import core.banner
 import modules.Lens_Web
 import modules.Lens_Port
-import core.banner
 
 def main():
     core.banner.print_banner()
