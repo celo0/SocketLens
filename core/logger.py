@@ -8,3 +8,6 @@ def setup_logger():
         format='%(asctime)s - %(levelname)s - %(message)s',
         handlers=[logging.FileHandler(f'socketlens_{data}.log'), logging.StreamHandler()]
     )
+
+def get_logger():
+    return logging.getLogger()

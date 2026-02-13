@@ -2,7 +2,7 @@ import requests
 import core.logger
 
 def lens_web(url, file=None):
-    log = core.logger.logging.getLogger()
+    log = core.logger.get_logger()
     messages = []
     try:
         response = requests.get(url, timeout=5)
